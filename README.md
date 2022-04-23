@@ -1,0 +1,3 @@
+# CkBepInExRecovery
+CoreKeeper 日本語化MODに同梱しているBepInExリカバリーツールです
+ほぼBepInExとやっていることに変わりはありません
