@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\azusa\.nuget\packages\samboy063.cpp2il.core\2022.0.1\contentFiles\any\netstandard2.0\capstone-x64.dll" />
+    <Content Remove="C:\Users\azusa\.nuget\packages\samboy063.cpp2il.core\2022.0.1\contentFiles\any\netstandard2.0\capstone-x86.dll" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Il2CppAssemblyUnhollower.BaseLib" Version="0.4.23" />
+		<PackageReference Include="Il2CppAssemblyUnhollower.BaseLib.Legacy" Version="0.4.23" />
+		<PackageReference Include="Il2CppAssemblyUnhollower.Tool" Version="0.4.23" />
+		<PackageReference Include="Il2CppDumper" Version="6.6.4" />
+		<PackageReference Include="Samboy063.Cpp2IL.Core" Version="2022.0.1" />
+	</ItemGroup>
+
+</Project>
