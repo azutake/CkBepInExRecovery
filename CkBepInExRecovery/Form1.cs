@@ -113,7 +113,7 @@ namespace CkBepInExRecovery
 		const string HASH_PATH = "BepInEx\\unhollowed\\assembly-hash.txt";
 		const string GAME_ASSEMBLY = "GameAssembly.dll";
 		const string UNHOLLOWED = "BepInEx\\unhollowed";
-		const string MANAGED = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Core Keeper\\mono\\Managed";
+		const string MANAGED = "mono\\Managed";
 		const string METADATA = GAME_NAME + "_Data\\il2cpp_data\\Metadata\\global-metadata.dat";
 
 		string ByteArrayToString(byte[] data)
